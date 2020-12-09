@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Font Montserat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- LIGHTBOXSPEED CSS -->
+    <link rel="stylesheet" href="./accset/css/lsb.css">
+    <!-- Venobox -->
+    <link rel="stylesheet" href="./accset/css/venobox.min.css">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./accset/css/main.css">
+    <link rel="stylesheet" href="./accset/css/style.css">
+    <title>Housing Layout</title>
+</head>
+
+<body>
+
+    <!-- BACK TO TOP  -->
+    <button id="back-to-top-btn">
+        <img src="./images/arrowup.png" alt="">
+    </button>
+
+    <div id="wrapper">
+
+        <header class="header">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">Hous<span class="header__logo-link--primary">ing</span></a>
+            </div>
+
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item--link">Home</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#about" class="header__navbar-item--link">About</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#blog" class="header__navbar-item--link">Blog</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#portfolio" class="header__navbar-item--link">Portfolio</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#agents" class="header__navbar-item--link">Agents</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#contact" class="header__navbar-item--link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+
+        <section class="banner">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="./images/b1.jpg">
+                    <div class="text">
+                        <h2>Lorem ipsum dolor sit amet. 1</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, numquam.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/b2.jpg">
+                    <div class="text">
+                        <h2>Lorem ipsum dolor sit amet. 2</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, numquam.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/b3.jpg">
+                    <div class="text">
+                        <h2>Lorem ipsum dolor sit amet. 3</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, numquam.</p>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="./images/b4.jpg">
+                    <div class="text">
+                        <h2>Lorem ipsum dolor sit amet. 4</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, numquam.</p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div class="controls">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <div class="about__heading">
+                <h2 class="title-page">About</h2>
+            </div>
+
+            <div class="about__content">
+                <div class="about__content-item">
+                    <a href="">
+                        <i class="fas fa-home about__content-item--icon"></i>
+                    </a>
+                    <p class="about__content-item--text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Ducimus neque consequatur odio tempore saepe animi quam perspiciatis atque laboriosam eaque.
+                    </p>
+                </div>
+                <div class="about__content-item">
+                    <a href="">
+                        <i class="fa fa-key about__content-item--icon"></i>
+                    </a>
+                    <p class="about__content-item--text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Ducimus neque consequatur odio tempore saepe animi quam perspiciatis atque laboriosam eaque.
+                    </p>
+                </div>
+                <div class="about__content-item">
+                    <a href="">
+                        <i class="far fa-money-bill-alt about__content-item--icon"></i>
+                    </a>
+                    <p class="about__content-item--text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Ducimus neque consequatur odio tempore saepe animi quam perspiciatis atque laboriosam eaque.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__sub">
+                <h3 class="about__sub-title">About us</h3>
+                <p class="about__sub-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eaque
+                    molestias deserunt ipsum nulla obcaecati consequatur modi minus reiciendis blanditiis, cum, ratione
+                    dicta quasi aperiam corporis optio excepturi aut iusto.Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Delectus eaque
+                    molestias deserunt ipsum nulla obcaecati consequatur modi minus reiciendis blanditiis, cum, ratione
+                    dicta quasi aperiam corporis optio excepturi aut iusto.
+                </p>
+            </div>
+
+
+        </section>
+
+        <section class="count">
+            <h2 class="title-page count__heading">Stats</h2>
+            <div class="count__content">
+                <div class="count__items">
+                    <div class="counter count__items-number">3500</div>
+                    <p class="count__items-text">Clients</p>
+                </div>
+                <div class="count__items">
+                    <div class="counter count__items-number">650</div>
+                    <p class="count__items-text">Plans</p>
+                </div>
+                <div class="count__items">
+                    <div class="counter count__items-number">1001</div>
+                    <p class="count__items-text">Project</p>
+                </div>
+                <div class="count__items">
+                    <div class="counter count__items-number">10100</div>
+                    <p class="count__items-text">Likes</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="blog__heading">
+                <h2 class="title-page">Blog</h2>
+            </div>
+
+            <div class="blog__content container">
+                <div class="blog__content-card">
+                    <img src="./images/g1.jpg" alt="" class="blog__content-img">
+                    <div class="blog__content-desc">
+                        <a href="" class="blog__content-title">Lorem ipsum dolor sit.</a>
+                        <p class="blog__content-sub">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem
+                            reprehenderit
+                            fugiat ea distinctio tempora?
+                        </p>
+                        <button class="btn btn-blog" id="modal__btn">Read more...</button>
+                    </div>
+                </div>
+                <div class="blog__content-card">
+                    <img src="./images/g2.jpg" alt="" class="blog__content-img">
+                    <div class="blog__content-desc">
+                        <a href="" class="blog__content-title">Lorem ipsum dolor sit.</a>
+                        <p class="blog__content-sub">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem
+                            reprehenderit
+                            fugiat ea distinctio tempora?
+                        </p>
+                        <button class="btn btn-blog">Read more...</button>
+                    </div>
+                </div>
+                <div class="blog__content-card">
+                    <img src="./images/g1.jpg" alt="" class="blog__content-img">
+                    <div class="blog__content-desc">
+                        <a href="" class="blog__content-title">Lorem ipsum dolor sit.</a>
+                        <p class="blog__content-sub">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem
+                            reprehenderit
+                            fugiat ea distinctio tempora?
+                        </p>
+                        <button class="btn btn-blog">Read more...</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- GET MORE  -->
+        <section class="getmore">
+            <div class="getmore__video">
+                <div class="getmore-video__play">
+                    <video src="./images/video.mp4" class="getmore-video__play-video" id="video-play" controls></video>
+
+                    <div class="getmore__overlay">
+                        <a class="getmore__overlay-link venobox"  data-autoplay="true" data-vbtype="video" href="#" data-href="./images/video.mp4">
+                            <i class="far fa-play-circle getmore__overlay-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="getmore__text">
+                <div class="getmore__text--content section-padding">
+                    <h3>Get More...</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga consectetur dolores voluptatum
+                        porro sint ad libero cumque doloribus reiciendis. Odio neque dolores expedita asperiores quaerat
+                        officia nesciunt excepturi tenetur delectus laborum. Quas obcaecati atque officia ipsam optio
+                        dolorum quo hic?</p>
+                    <button class="btn-blog">Read more....</button>
+                </div>
+            </div>
+        </section>
+        <!-- END GET MORE  -->
+
+        <!-- Portfolio -->
+        <section class="portfolio section-padding" id="portfolio">
+            <h3>Portfolio</h3>
+            <div class="portfolio__content">
+                <div class="portfolio__content--image">
+                    <a href="./images/img1.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img1.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__content--image">
+                    <a href="./images/img2.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img2.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__content--image">
+                    <a href="./images/img3.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img3.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__content--image">
+                    <a href="./images/img4.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img4.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__content--image">
+                    <a href="./images/img5.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img5.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__content--image">
+                    <a href="./images/img6.jpg" class="lsb-preview" data-lsb-group="portfolio">
+                        <img src="./images/img6.jpg">
+                        <div class="overlay__content">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- END Portfolio  -->
+
+        <!-- SUBCRIBE -->
+        <section class="subcribe">
+            <h1>Subcribe</h1>
+            <div class="subcribe__content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci maiores illum tempore, quo
+                    itaque.</p>
+                <div class="width-70">
+                    <input type="text" placeholder="Email">
+                    <button class="subcribe__btn">Click</button>
+                </div>
+            </div>
+        </section>
+        <!-- END SUBCRIBE  -->
+
+        <!-- Our Agents -->
+
+        <section class="agents container" id="agents">
+            <h2 class="title-page">Our Agents</h2>
+            <div class="agents__container">
+                <div class="agents__card">
+                    <img src="./images/t1.jpg" alt="" class="agents__card-img">
+                    <div class="agents__card-content">
+                        <h4 class="agents__card-content-name">KAT WALLY</h4>
+                        <p class="agents__card-content-desc">Hello world, i'm human</p>
+                        <ul class="agents__card-content-list">
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-facebook-f agents__card-content-icon--fb"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-google-plus-g agents__card-content-icon--gg"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-twitter agents__card-content-icon--twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__card">
+                    <img src="./images/t2.jpg" alt="" class="agents__card-img">
+                    <div class="agents__card-content">
+                        <h4 class="agents__card-content-name">KAT WALLY</h4>
+                        <p class="agents__card-content-desc">Hello world, i'm human</p>
+                        <ul class="agents__card-content-list">
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-facebook-f agents__card-content-icon--fb"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-google-plus-g agents__card-content-icon--gg"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-twitter agents__card-content-icon--twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__card">
+                    <img src="./images/t3.jpg" alt="" class="agents__card-img">
+                    <div class="agents__card-content">
+                        <h4 class="agents__card-content-name">KAT WALLY</h4>
+                        <p class="agents__card-content-desc">Hello world, i'm human</p>
+                        <ul class="agents__card-content-list">
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-facebook-f agents__card-content-icon--fb"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-google-plus-g agents__card-content-icon--gg"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-twitter agents__card-content-icon--twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__card">
+                    <img src="./images/t4.jpg" alt="" class="agents__card-img">
+                    <div class="agents__card-content">
+                        <h4 class="agents__card-content-name">KAT WALLY</h4>
+                        <p class="agents__card-content-desc">Hello world, i'm human</p>
+                        <ul class="agents__card-content-list">
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-facebook-f agents__card-content-icon--fb"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-google-plus-g agents__card-content-icon--gg"></i>
+                                </a>
+                            </li>
+                            <li class="agents__card-content-list--item">
+                                <a class="agents__card-content-list--link" href="#">
+                                    <i class="fab fa-twitter agents__card-content-icon--twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Our Agents -->
+
+        <!-- Maps -->
+        <div class="maps">
+            <div class="maps__border">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5097522332107!2d106.67765461477141!3d10.772215392324373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f211a20768b%3A0xb9bb32aa11cf2d62!2zMTEyIENhbyBUaOG6r25nLCBQaMaw4budbmcgNCwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1606321014605!5m2!1svi!2s"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+        <!-- End Maps -->
+
+        <!-- Contact -->
+
+        <section class="contact" id="contact">
+            <h2 class="title-page">Contact Us</h2>
+            <div class="contact__content container">
+                <form class="contact__form">
+                    <div class="contact__form-info">
+                        <input type="text" class="contact__form-info--input" placeholder="Name">
+                        <input type="text" class="contact__form-info--input" placeholder="Last Name">
+                        <input type="email" class="contact__form-info--input" placeholder="Email">
+                        <input type="tel" class="contact__form-info--input" placeholder="Phone">
+                    </div>
+                    <div class="contact__form-mess">
+                        <textarea name="" id="" cols="30" rows="10" class="contact__form-mess--user"
+                            placeholder="Messege"></textarea>
+                        <button class="contact__form-submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact End -->
+
+        <!-- Footer -->
+
+        <footer class="footer">
+
+            <div class="footer__reserved">
+                <p class="footer__reserved-content">
+                    &#169; 2020 Housing. All Rights Reserved | Design by <code>Khanh-Dien</code>
+                </p>
+            </div>
+
+            <div class="footer__contact">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="item__link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="item__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="item__link">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="item__link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+
+        <!-- Footer-end -->
+
+        <!-- Modal -->
+
+       
+
+        <div id="simple__modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-content-title">
+                    <span>Housing</span>
+                    <span class="close__btn">&times;</span>
+                </div>
+                <div class="modal-content-img">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+                <div class="modal-content-sub">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis est temporibus eaque dolorem
+                    placeat, aliquam molestiae soluta minima voluptate explicabo beatae, maxime optio, facere eos.
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    <script src="./accset/javascript/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- Couting     -->
+    <script src="./accset/javascript/jquery.countup.min.js"></script>
+    <script>
+        $(".counter").countUp();
+    </script>
+    <!-- LIGHTBOXSPEED  -->
+    <script src="./accset/javascript/lsb.min.js"></script>
+    <script>
+        $(window).load(function () {
+            $.fn.lightspeedBox();
+        });
+    </script>
+    <script>
+        $.fn.lightspeedBox({
+            showImageTitle: true,
+            showImageCount: true,
+            showDownloadButton: true,
+            showAutoPlayButton: true,
+            autoPlayback: false,
+            playbackTiming: 3500,
+            zIndex: 30,
+            locale: {
+                nextButton: 'Next image',
+                prevButton: 'Previous image',
+                closeButton: 'Close',
+                downloadButton: 'Download image',
+                noImageFound: 'Sorry, no image found.',
+                autoplayButton: 'Enable autoplay'
+            }
+        });
+    </script>
+
+    <!-- BACK TO TOP JS  -->
+    <script src="./accset/javascript/main-backtotop.js"></script>
+    <!-- Venobox -->
+    <script src="./accset/javascript/venobox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.venobox').venobox();
+        });
+    </script>
+    <!-- End Venobox  -->
+
+</body>
+
+</html>
